@@ -41,7 +41,7 @@ class _WeatherAppState extends State<WeatherApp> {
       windspeed,
       humidity;
   Future featchWeather({required place}) async {
-    const apikey = '4b6bd946ab92cfd69640e360f94e11e8';
+    const apikey = 'Your API Key';
     var url =
         'https://api.openweathermap.org/data/2.5/weather?q=$place&units=metric&appid=$apikey';
     var finalURL = Uri.parse(url);
